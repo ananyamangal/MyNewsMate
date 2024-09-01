@@ -1,0 +1,41 @@
+.avatar-selection {
+    text-align: center;
+    background-color: #f8f5ef;
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #67856e;
+    padding: 10px 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.avatar-container {
+    margin-top: 50px;
+}
+
+.avatar-container h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.avatars {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.avatar img {
+    border-radius: 50%;
+    border: 2px solid #8cc79f;
+    width: 150px;
+    height: 150px;
+}
+

@@ -1,5 +1,6 @@
 import React from 'react';
 import './home.css';
+import imagee from "./assets/Screenshot_2024-09-01_at_1.32.02_PM-removebg-preview.png";
 
 function Home() {
   return (
@@ -22,7 +23,7 @@ function Home() {
           </p>
         </div>
         <button className="watch-news-button">Watch News Now!</button>
-        <img src="/Users/ananyamangal/Desktop/MyNewsMate/my-app/assets/Screenshot_2024-09-01_at_1.32.02_PM-removebg-preview.png" alt="News Avatar" className="avatar-image" />
+        <img src={imagee }alt="News Avatar" className="avatar-image" />
       </main>
     </div>
   );
