@@ -6,6 +6,7 @@ body, html, .App {
   }
   
   /* Navbar styling */
+  
   .navbar {
     display: flex;
     justify-content: space-between;

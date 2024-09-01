@@ -33,6 +33,18 @@ const topics = [
 const Topics = () => {
   return (
     <div className="container">
+       <header className="navbar">
+            <nav className="navbar">
+        <div className="navbar-left">
+            <a href="#">Home</a>
+            <a href="#">Choose Avatar</a>
+            <a href="#">News</a>
+        </div>
+        <div className="navbar-right">
+            <a href="#">Login/Signup</a>
+        </div>
+    </nav>
+    </header>
       <h1 className="title">Choose topics you like</h1>
       <div className="topics-grid">
         {topics.map((topic, index) => (
