@@ -16,7 +16,7 @@ function Home() {
         </div>
       </header>
       <main className="main-content">
-        <div>
+        <div className='boxx'>
           <h1 className="title">MY NEWS MATE</h1>
           <div className="description-box">
             <p>Your personal news buddy, reading the latest updates tailored just for you, anytime, anywhere.</p>

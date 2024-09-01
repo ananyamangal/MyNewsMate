@@ -57,8 +57,9 @@ body, html, .App {
 }
 
 .description-box p {
-  font-size: 18px;
+  font-size: 23px;
   color: #333;
+  margin-left: 0px;
 }
 
 .watch-news-button {
@@ -69,10 +70,17 @@ body, html, .App {
   cursor: pointer;
   border-radius: 5px;
   margin-top: 20px;
+  margin-left: 0px;
+  margin-right: 100px;
 }
 
 .avatar-image {
   width: 200px; /* Adjust size as needed */
   height: auto;
   margin-left: 20px;
+}
+
+.boxx{
+  margin-left:0px;
+  margin-right: 200px;
 }
