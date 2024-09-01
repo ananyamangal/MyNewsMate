@@ -16,7 +16,18 @@ const topics = [
   'Entertainment',
   'Finance',
   'Business',
-  'Trade'
+  'Trade',
+  'blah',
+  'blah',
+  'blah',
+  'blah',
+  'blah',
+  'blah',
+  'blah',
+  'blah',
+  'blah',
+  'blah',
+
 ];
 
 const Topics = () => {
