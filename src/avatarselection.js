@@ -1,6 +1,7 @@
 import React from 'react';
 import './AvatarSelection.css';
-
+import imageee from "./assets/Screenshot_2024-09-01_at_1.57.47_PM-removebg-preview (1).png"
+import imagee from "./assets/Screenshot_2024-09-01_at_1.32.02_PM-removebg-preview.png"
 const AvatarSelection = () => {
     return (
         <div className="avatar-selection">
@@ -18,10 +19,10 @@ const AvatarSelection = () => {
                 <h2>Choose your avatar!</h2>
                 <div className="avatars">
                     <div className="avatar">
-                        <img src="https://your-image-source.com/avatar1.png" alt="Avatar 1" />
+                        <img src={imageee} alt="Avatar 1" />
                     </div>
                     <div className="avatar">
-                        <img src="https://your-image-source.com/avatar2.png" alt="Avatar 2" />
+                        <img src={imagee} alt="Avatar 2" />
                     </div>
                 </div>
             </div>

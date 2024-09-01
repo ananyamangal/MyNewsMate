@@ -10,7 +10,7 @@ function App() {
     <Routes>
       <Route path='/lala' element={<Home></Home>}></Route>
       <Route path='/haha' element={<AvatarSelection></AvatarSelection>}></Route>
-     
+      
     </Routes>
     </BrowserRouter>
   );
