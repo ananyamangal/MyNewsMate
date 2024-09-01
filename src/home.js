@@ -16,14 +16,14 @@ function Home() {
         </div>
       </header>
       <main className="main-content">
-        <h1 className="title">MY NEWS MATE</h1>
-        <div className="description-box">
-          <p>
-            Your personal news buddy, reading the latest updates tailored just for you, anytime, anywhere.
-          </p>
+        <div>
+          <h1 className="title">MY NEWS MATE</h1>
+          <div className="description-box">
+            <p>Your personal news buddy, reading the latest updates tailored just for you, anytime, anywhere.</p>
+          </div>
+          <button className="watch-news-button">Watch News Now!</button>
         </div>
-        <button className="watch-news-button">Watch News Now!</button>
-        <img src={imagee }alt="News Avatar" className="avatar-image" />
+        <img src={imagee} alt="News Avatar" className="avatar-image" />
       </main>
     </div>
   );
