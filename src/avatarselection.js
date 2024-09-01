@@ -29,7 +29,13 @@ const AvatarSelection = () => {
                     <div className="avatar">
                         <img src={imagee} alt="Avatar 2" />
                     </div>
+                  
                 </div>
+                <div className="actions">
+ 
+ <button className="action-btn">Continue</button>
+</div>
+
             </div>
         </div>
         </div>
